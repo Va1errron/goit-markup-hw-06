@@ -1288,7 +1288,7 @@ font-weight: 500;
          }
 
         .advantages-list {
-            gap: 48px 24px;
+            gap: 72px 24px;
         }
 
         .advantages-item {
@@ -1395,6 +1395,9 @@ font-weight: 500;
             max-width: 496px;
             margin-bottom: 48px;
         }
+    .advantages {
+        padding-block: 120px;
+    }
     .advantages-list {
         gap: 24px;
     }
@@ -1406,6 +1409,13 @@ font-weight: 500;
         font-size: 20px;
         line-height: 1.2;  
 
+    }
+    .advantages-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
     }
     .advantages-icon-container {
         border-radius: 4px;
