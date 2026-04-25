@@ -614,7 +614,7 @@ display: none;
     color: #f4f4fd;
     max-width: 264px;
     margin-top: 16px;
-    margin-bottom: 72px;
+    
 }
 
 .footer-logo {
@@ -688,7 +688,7 @@ display: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
+    gap: 72px;
     }
 
 .footer-info {
@@ -698,7 +698,7 @@ display: none;
 
 .footer-socials {
     /* margin-left: 120px; */
-    margin-bottom: 72px;
+    
 }
 
 .footer-subscribe {
@@ -1339,7 +1339,7 @@ font-weight: 500;
             padding-inline: 108px;
         }
         .footer-container {
-            gap: 24px;
+            gap: 72px 24px;
             align-items: baseline;
             justify-content: start;
         }
