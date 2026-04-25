@@ -932,6 +932,11 @@ display: none;
 
     .modal-field-checkbox{
         margin-top: 16px;
+        margin-left: 24px;
+         margin-bottom: 24px;
+        
+        
+
        
     }
 
@@ -940,30 +945,36 @@ display: none;
             line-height: 1.167;
             letter-spacing: 0.04em;
             color: #8e8f99;
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            padding-left: 24px;
+            
+           
             position: relative;
+            
+             
+            
+             
+        
+         
+        
             
     }
     
 
     .check-mark{
-        border-radius: 2px;
-            border: 1px solid rgba(46, 47, 66, 0.4);
-            width: 16px;
-            height: 16px;
-
-            transform: translateX(-150%);
-            display: flex;
-            position: absolute;
-            align-items: center;
-            justify-content: center;
-            fill: transparent;
-            transition-property: background-color, border-color, fill;
-                transition-duration: 250ms;
-                transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        display: inline-flex;
+        position: absolute;
+        transform: translate(-150%, 50%);
+        align-items: center;
+        justify-content: center;
+        fill: transparent;
+        transition-property: background-color, border-color, fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       
     }
 
     .modal-checkbox:checked + .modal-checkbox-label .check-mark{
@@ -1010,6 +1021,7 @@ display: none;
                 text-decoration: underline;
                 text-decoration-skip-ink: none;
                 color: #4d5ae5; 
+                
                 
                
         }
@@ -1348,12 +1360,9 @@ font-weight: 500;
         .modal-input {
             width: 360px;
         }
-        .modal-checkbox-label {
-            flex-wrap:nowrap
-        }
-        .modal-link {
-        margin-left:0;
-        }
+        .check-mark {
+        transform: translate(-150%);
+         }
        
 
     }
