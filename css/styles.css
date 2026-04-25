@@ -1373,6 +1373,11 @@ font-weight: 500;
              gap: 40px;
     
          }
+         .header-contacts-link {
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+         }
     .solutions {
         padding-block: 188px;
         max-width: 1440px;
