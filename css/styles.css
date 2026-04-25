@@ -1024,13 +1024,18 @@ position: fixed;
     background: #fff;
     padding: 24px 24px 40px 16px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+   
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     
 
+}
+
+.mob-menu-container {
+    display: flex;
+    flex-direction: column;
+        justify-content: space-between;
 }
 
 .menu-close-button {
